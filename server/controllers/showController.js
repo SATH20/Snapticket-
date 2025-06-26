@@ -5,7 +5,7 @@ export const getNowPlayingMovies = async (req, res) => {
     const { data } = await axios.get(
       "https://api.themoviedb.org/3/movie/now_playing",
       {
-        hearders: { Authorization: `Bearer ${process.env.TMDB_API_KEY}` },
+        headers: { Authorization: `Bearer ${process.env.TMDB_API_KEY}` },
       }
     );
 
