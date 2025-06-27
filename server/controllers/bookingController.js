@@ -1,4 +1,3 @@
-import e from "express";
 import Booking from "../models/Booking.js";
 import Show from "../models/Show.js";
 
@@ -57,6 +56,20 @@ export const createBooking = async (req, res) => {
     // Stripe Gateway Initialize
 
     res.json({ success: true, message: "Booked successfully." });
+  } catch (error) {
+    console.log(error.message);
+    res.json({ success: false, message: error.message });
+  }
+};
+
+export const getOccupiedSeats = async (req, res) => {
+  try {
+    const { showId } = req.params;
+    const showData = await Show.findById(showId);
+
+    const occupiedSeats = Object.keys(showData.occupiedSeats);
+
+    res.json({ success: true, occupiedSeats });
   } catch (error) {
     console.log(error.message);
     res.json({ success: false, message: error.message });
