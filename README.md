@@ -82,8 +82,8 @@ Before running this application, make sure you have the following installed:
 
 1. **Clone the repository**
    ```console
-   git clone https://github.com/elyse502/quickshow.git
-   cd quickshow
+   git clone https://github.com/elyse502/QuickShow.git
+   cd QuickShow
    ```
 
 2. **Install server dependencies**
@@ -273,16 +273,20 @@ quickshow/
 
 ### Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `MONGODB_URI` | MongoDB connection string | ✅ |
-| `JWT_SECRET` | JWT signing secret | ✅ |
-| `STRIPE_SECRET_KEY` | Stripe secret key | ✅ |
-| `STRIPE_PUBLIC_KEY` | Stripe public key | ✅ |
-| `CLOUDINARY_CLOUD_NAME` | Cloudinary cloud name | ✅ |
-| `CLOUDINARY_API_KEY` | Cloudinary API key | ✅ |
-| `CLOUDINARY_API_SECRET` | Cloudinary API secret | ✅ |
-| `INNGEST_EVENT_KEY` | Inngest event key | ✅ |
+| Variable                 | Description                                            | Required |
+| ------------------------ | ------------------------------------------------------ | -------- |
+| `MONGODB_URI`            | MongoDB connection string                              | ✅        |
+| `CLERK_PUBLISHABLE_KEY`  | Clerk frontend (public) key for user authentication    | ✅        |
+| `CLERK_SECRET_KEY`       | Clerk backend secret key for server‑side auth          | ✅        |
+| `INNGEST_EVENT_KEY`      | Inngest event key for scheduling/triggering jobs       | ✅        |
+| `INNGEST_SIGNING_KEY`    | Inngest signing key to verify incoming events          | ✅        |
+| `TMDB_API_KEY`           | TMDB API key for fetching movie metadata & posters     | ✅        |
+| `STRIPE_PUBLISHABLE_KEY` | Stripe publishable (public) key for frontend payments  | ✅        |
+| `STRIPE_SECRET_KEY`      | Stripe secret key for server‑side payment logic        | ✅        |
+| `STRIPE_WEBHOOK_SECRET`  | Stripe webhook secret for verifying webhook signatures | ✅        |
+| `SENDER_EMAIL`           | “From” email address for transactional emails          | ✅        |
+| `SMTP_USER`              | SMTP username (e.g., SendGrid / Mailgun)               | ✅        |
+| `SMTP_PASS`              | SMTP password / API token                              | ✅        |
 
 ### Deployment
 
@@ -340,10 +344,11 @@ For any questions or support, please contact:
 
 <div align="center">
 
-**Made with ❤️ by <i>Elysée NIYIBIZI</i>**
+**Made with ❤️ by <i>[Elysée NIYIBIZI](https://elyse502.github.io/Elysee-Portfolio/)</i>**
 
 [⬆ Back to Top](#table-of-contents)
 
 </div>
+
 
 
