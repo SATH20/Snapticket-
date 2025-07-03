@@ -181,7 +181,7 @@ npm run test
 
 ## Project Structure
 
-```
+```groovy
 quickshow/
 ├── client/                    # Frontend React application
 │   ├── src/
@@ -300,7 +300,7 @@ For support, email support@quickshow.com or create an issue in the GitHub reposi
 
 **Made with ❤️ by <i>Elysée NIYIBIZI</i>**
 
-[⬆ Back to Top](#quickshow)
+[⬆ Back to Top](#table-of-contents)
 
 </div>
 
