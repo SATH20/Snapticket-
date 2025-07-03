@@ -22,6 +22,14 @@
 ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 
+<br />
+
+## LIVE - DEMO 🌐
+  
+**UI** 👉 [LINK](https://quickshow-sigma-roan.vercel.app/)
+
+**Admin Dashboard** 👉 [LINK](https://quickshow-sigma-roan.vercel.app/admin)
+
 </div>
 
 ---
@@ -74,7 +82,7 @@ Before running this application, make sure you have the following installed:
 
 1. **Clone the repository**
    ```console
-   git clone https://github.com/yourusername/quickshow.git
+   git clone https://github.com/elyse502/quickshow.git
    cd quickshow
    ```
 
@@ -96,21 +104,46 @@ Before running this application, make sure you have the following installed:
    
    **Server (.env)**
    ```env
-   PORT=5000
+   # 🌐 Database
    MONGODB_URI=mongodb://localhost:27017/quickshow
-   JWT_SECRET=your-jwt-secret-key
+    
+   # 🔐 Clerk Authentication
+   CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+   CLERK_SECRET_KEY=your-clerk-secret-key
+    
+   # ⚙️ Inngest Event Scheduling
+   INNGEST_EVENT_KEY=your-inngest-event-key
+   INNGEST_SIGNING_KEY=your-inngest-signing-key
+    
+   # 🎬 TMDB API (for movie data)
+   TMDB_API_KEY=your-tmdb-api-key
+    
+   # 💳 Stripe Payment Integration
+   STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key
    STRIPE_SECRET_KEY=your-stripe-secret-key
    STRIPE_WEBHOOK_SECRET=your-stripe-webhook-secret
-   CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
-   CLOUDINARY_API_KEY=your-cloudinary-api-key
-   CLOUDINARY_API_SECRET=your-cloudinary-api-secret
-   INNGEST_EVENT_KEY=your-inngest-event-key
+    
+   # 📧 Email Notifications (Nodemailer or similar SMTP setup)
+   SENDER_EMAIL=your-sender@example.com
+   SMTP_USER=your-smtp-username
+   SMTP_PASS=your-smtp-password
+
    ```
    
    **Client (.env)**
    ```env
-   VITE_API_URL=http://localhost:5000
-   VITE_STRIPE_PUBLIC_KEY=your-stripe-public-key
+   # 💱 Currency Symbol
+   VITE_CURRENCY=$
+
+   # 🔐 Clerk Authentication (Public Key for Frontend)
+   VITE_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+
+   # 🌐 Base API URL (Proxy to Backend)
+   VITE_BASE_URL=http://localhost:3000
+
+   # 🎞️ TMDB Image Base URL
+   VITE_TMDB_IMAGE_BASE_URL=https://image.tmdb.org/t/p/original
+
    ```
 
 ### Usage
@@ -286,13 +319,22 @@ vercel --prod
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/elyse502/QuickShow/blob/main/LICENSE) file for details.
 
 ---
 
 ## Support
 
-For support, email support@quickshow.com or create an issue in the GitHub repository.
+For support, email elyseniyibizi502@gmail.com or create an issue in the GitHub repository.
+
+---
+
+## 📞 Contact
+For any questions or support, please contact:
+- [**NIYIBIZI Elysée**](https://linktr.ee/niyibizi_elysee)👨🏿‍💻 | [Github](https://github.com/elyse502) | [Linkedin](https://www.linkedin.com/in/niyibizi-elys%C3%A9e/) | [Twitter](https://twitter.com/Niyibizi_Elyse).
+- **Email**: <elyseniyibizi502@gmail.com>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niyibizi-elys%C3%A9e/) [![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Niyibizi_Elyse) [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elyse502)
 
 ---
 
@@ -303,7 +345,5 @@ For support, email support@quickshow.com or create an issue in the GitHub reposi
 [⬆ Back to Top](#table-of-contents)
 
 </div>
-
-
 
 
