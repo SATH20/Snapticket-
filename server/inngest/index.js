@@ -101,10 +101,10 @@ const sendBookingConfirmationEmail = inngest.createFunction(
         <p>
           <strong>Date:</strong> ${new Date(
             booking.show.showDateTime
-          ).toLocaleDateString("en-US", { timeZone: "Juba" })}<br />
+          ).toLocaleDateString("en-US", { timeZone: "Africa/Kigali" })}<br />
           <strong>Time:</strong> ${new Date(
             booking.show.showDateTime
-          ).toLocaleTimeString("en-US", { timeZone: "Juba" })}
+          ).toLocaleTimeString("en-US", { timeZone: "Africa/Kigali" })}
         </p>
         <p>Enjoy the show! 🍿</p>
         <p>Thanks for booking with us!<br />- QickShow Team</P>
