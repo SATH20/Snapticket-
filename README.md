@@ -346,7 +346,7 @@ For any questions or support, please contact:
 
 **Made with ❤️ by <i>[Elysée NIYIBIZI](https://elyse502.github.io/Elysee-Portfolio/)</i>**
 
-[⬆ Back to Top](#quickshow-🎬🍿🎥)
+[⬆ Back to Top](#table-of-contents)
 
 </div>
 
