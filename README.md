@@ -1,6 +1,6 @@
 <div align="center">
 
-# QUICKSHOW 🎬🍿🎥
+# BMS CLONE🎬🍿🎥
 
 *Seamless Video Discovery. Effortless Entertainment Experience*
 
@@ -24,17 +24,7 @@
 
 <br />
 
-## 🎦 LIVE - DEMO 🌐
-  
-**UI** 👉 [LINK](https://quickshow-sigma-roan.vercel.app/)
 
-![alt text](screencapture-quickshow-sigma-roan-vercel-app-2025-07-04-07_02_38.png)
-
-<br /><hr /><br />
-
-**Admin Dashboard** 👉 [LINK](https://quickshow-sigma-roan.vercel.app/admin)
-
-![alt text](screencapture-quickshow-sigma-roan-vercel-app-admin-2025-07-04-07_02_14.png)
 
 </div>
 
@@ -59,7 +49,7 @@
 
 ## Overview
 
-**QuickShow** is a modern, full-stack movie ticket booking application built with the MERN stack. It provides users with a seamless experience to discover movies, book tickets, and manage their bookings while offering administrators powerful tools to manage shows, bookings, and movie listings.
+This is a modern, full-stack movie ticket booking application built with the MERN stack. It provides users with a seamless experience to discover movies, book tickets, and manage their bookings while offering administrators powerful tools to manage shows, bookings, and movie listings.
 
 ### Key Highlights
 
@@ -294,20 +284,7 @@ quickshow/
 | `SMTP_USER`              | SMTP username (e.g., SendGrid / Mailgun)               | ✅        |
 | `SMTP_PASS`              | SMTP password / API token                              | ✅        |
 
-### Deployment
 
-The application is configured for deployment on Vercel with the included `vercel.json` files.
-
-**Deploy to Vercel:**
-```console
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel --prod
-```
-
----
 
 ## Contributing
 
@@ -317,42 +294,7 @@ vercel --prod
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-### Development Guidelines
 
-- Follow the existing code style and conventions
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/elyse502/QuickShow/blob/main/LICENSE) file for details.
-
----
-
-## Support
-
-For support, email elyseniyibizi502@gmail.com or create an issue in the GitHub repository.
-
----
-
-## 📞 Contact
-For any questions or support, please contact:
-- [**NIYIBIZI Elysée**](https://linktr.ee/niyibizi_elysee)👨🏿‍💻 | [Github](https://github.com/elyse502) | [Linkedin](https://www.linkedin.com/in/niyibizi-elys%C3%A9e/) | [Twitter](https://twitter.com/Niyibizi_Elyse).
-- **Email**: <elyseniyibizi502@gmail.com>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/niyibizi-elys%C3%A9e/) [![@phenrysay](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Niyibizi_Elyse) [![pH-7](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elyse502)
-
----
-
-<div align="center">
-
-**Made with ❤️ by <i>[Elysée NIYIBIZI](https://elyse502.github.io/Elysee-Portfolio/)</i>**
-
-[⬆ Back to Top](#table-of-contents)
 
 </div>
 
