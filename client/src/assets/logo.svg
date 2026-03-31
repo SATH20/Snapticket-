@@ -1,0 +1,25 @@
+<svg width="180" height="36" viewBox="0 0 180 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5FF"/>
+      <stop offset="100%" style="stop-color:#8A2BE2"/>
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00E5FF"/>
+      <stop offset="50%" style="stop-color:#8A2BE2"/>
+      <stop offset="100%" style="stop-color:#00E5FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Ticket Shape -->
+  <rect x="2" y="6" width="28" height="24" rx="4" stroke="url(#logoGrad)" stroke-width="2" fill="none"/>
+  <circle cx="2" cy="18" r="3" fill="#0B0914"/>
+  <circle cx="30" cy="18" r="3" fill="#0B0914"/>
+  <circle cx="2" cy="18" r="3" stroke="url(#logoGrad)" stroke-width="1.5" fill="#0B0914"/>
+  <circle cx="30" cy="18" r="3" stroke="url(#logoGrad)" stroke-width="1.5" fill="#0B0914"/>
+  <!-- Lightning Bolt -->
+  <path d="M18 8L12 19H17L14 28L22 17H17L20 8Z" fill="url(#boltGrad)"/>
+  <!-- Text: Snap -->
+  <text x="38" y="25" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#00E5FF">Snap</text>
+  <!-- Text: Ticket -->
+  <text x="88" y="25" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#8A2BE2">Ticket</text>
+</svg>
