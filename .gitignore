@@ -7,6 +7,15 @@
 .env.*.local
 *.env
 
+# Internal Documentation (Keep local only)
+SECURITY.md
+SECURITY_STATUS.md
+SETUP_STATUS.md
+FEATURES_SUMMARY.md
+MOVIE_UPDATES.md
+TMDB_SETUP.md
+STRIPE_SETUP_GUIDE.md
+
 # API Keys and Secrets
 secrets/
 *.key
